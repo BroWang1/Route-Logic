@@ -13,7 +13,7 @@ function App() {
       <div style={{ textAlign: 'center' }}>
         {/* Logo */}
         <img src="/logo.png" alt="RouteLogic Logo" />
-        <h1>Welcome to RouteLogic</h1>
+        {/* <h1>Welcome to RouteLogic</h1> */}
         
         {/* Routes for different components (React Router v6+) */}
         <Routes>
