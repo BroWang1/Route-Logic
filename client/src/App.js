@@ -4,14 +4,14 @@ import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import BusinessPlan from './components/BusinessPlan';
-import logo from './public/logo.png';
 
 function App() {
   return (
     <div>
       <Navbar />
       <div style={{ textAlign: 'center' }}>
-        <img src={logo} alt="RouteLogic Logo" />
+        {/* Correct path to the logo in the public folder */}
+        <img src="/logo.png" alt="RouteLogic Logo" />
         <h1>Welcome to RouteLogic</h1>
         <Home />
         <About />
