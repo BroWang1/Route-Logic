@@ -1,14 +1,11 @@
-import React from "react";
+import React from 'react';
 
 function BusinessPlan() {
   return (
-    <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold text-center">Business Plan</h1>
-      <iframe
-        src="/business-plan.pdf"
-        className="w-full h-screen"
-        title="Business Plan"
-      ></iframe>
+    <div>
+      <h2>Business Plan</h2>
+      <p>Download our business plan to understand how RouteLogic is poised to change the future of AI logistics.</p>
+      <a href="/business-plan.pdf" target="_blank" rel="noopener noreferrer">Download Business Plan</a>
     </div>
   );
 }
