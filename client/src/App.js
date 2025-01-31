@@ -1,23 +1,25 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import BusinessPlan from './components/BusinessPlan';
+import logo from './assets/logo.png'; // Use your logo here
 
-const App = () => {
+function App() {
   return (
-    <Router>
+    <div>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/business-plan" element={<BusinessPlan />} />
-      </Routes>
-    </Router>
+      <div style={{ textAlign: 'center' }}>
+        <img src={logo} alt="RouteLogic Logo" />
+        <h1>Welcome to RouteLogic</h1>
+        <Home />
+        <About />
+        <Contact />
+        <BusinessPlan />
+      </div>
+    </div>
   );
-};
+}
 
 export default App;
