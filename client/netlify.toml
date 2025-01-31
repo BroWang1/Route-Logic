@@ -1,0 +1,8 @@
+[build]
+  base = "client" # Base directory
+  command = "npm run build" # Build command
+  publish = "client/build" # Publish directory
+
+# Optional: Environment variables
+[build.environment]
+  NODE_VERSION = "16" # Specify Node.js version
