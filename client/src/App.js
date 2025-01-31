@@ -4,7 +4,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import BusinessPlan from './components/BusinessPlan';
-import logo from './assets/logo.png'; // Use your logo here
+import logo from './public/logo.png';
 
 function App() {
   return (
