@@ -13,8 +13,8 @@ const Navbar = () => {
       <Link to="/contact" className="text-gray-900 font-medium text-lg transition-all duration-300 hover:scale-105 hover:text-black">
         Contact 
       </Link>
-      <Link to="/business-plan" className="text-gray-900 font-medium text-lg transition-all duration-300 hover:scale-105 hover:text-black">
-        Business Plan
+      <Link to="/investor-relations" className="text-gray-900 font-medium text-lg transition-all duration-300 hover:scale-105 hover:text-black">
+        Investor Relations
       </Link>
       <button className="ml-auto bg-black text-white px-6 py-2 rounded-full shadow-md transition-all duration-300 hover:bg-gray-800 hover:scale-105">
         Book a Demo
