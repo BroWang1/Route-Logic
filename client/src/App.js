@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <div style={{ textAlign: 'center' }}>
+      <div style={{ textAlign: 'center', display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
         <img src="/logo.png" alt="RouteLogic Logo" className="w-32 h-auto" />
         {/* <h1>Welcome to RouteLogic</h1> */}
         
