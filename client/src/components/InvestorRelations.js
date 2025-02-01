@@ -27,5 +27,5 @@ function InvestorRelations() {
   );
 }
 
-export default BusinessPlan;
+export default InvestorRelations;
 
