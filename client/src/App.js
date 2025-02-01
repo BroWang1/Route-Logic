@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
-import BusinessPlan from './components/BusinessPlan';
+import InvestorRelations from './components/InvestorRelations';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/business-plan" element={<BusinessPlan />} />
+          <Route path="/investor-relations" element={<Investor Relations />} />
         </Routes>
       </div>
     </Router>
