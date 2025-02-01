@@ -10,15 +10,15 @@ app.use(cors());
 // Serve static files from the React build folder
 app.use(express.static(path.join(__dirname, "../client/build")));
 
-// API endpoint (optional, can keep it)
+// Serve business plan files if needed
+app.use(express.static("business-plan"));
+
+// API route (optional)
 app.get("/api/status", (req, res) => {
   res.json({ message: "Server is running" });
 });
 
-// Serve business plan files (if stored in a separate folder)
-app.use(express.static("business-plan"));
-
-// Handle React routes (fixes refresh issue)
+// Fix: Handle React Router routes by serving index.html for unknown paths
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "../client/build", "index.html"));
 });
