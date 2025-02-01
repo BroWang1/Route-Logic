@@ -18,7 +18,8 @@ app.get("/api/status", (req, res) => {
   res.json({ message: "Server is running" });
 });
 
-// Fix: Handle React Router routes by serving index.html for unknown paths
+// Handle React Router routes for SPA
+// This will serve index.html for any route that isn't a static file or API endpoint
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "../client/build", "index.html"));
 });
