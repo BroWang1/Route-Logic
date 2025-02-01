@@ -11,7 +11,7 @@ function App() {
     <Router>
       <Navbar />
       <div style={{ textAlign: 'center' }}>
-        <img src="/logo.png" alt="RouteLogic Logo" />
+        <img src="/logo.png" alt="RouteLogic Logo" className="w-32 h-auto" />
         {/* <h1>Welcome to RouteLogic</h1> */}
         
         {/* Routes for different components (React Router v6+) */}
