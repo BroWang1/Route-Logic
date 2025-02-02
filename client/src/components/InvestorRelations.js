@@ -19,9 +19,10 @@ function InvestorRelations() {
         <h3>Investor Relations Section</h3>
         <p>[Provide an overview of your financial outlook]</p>
       </div>
-      
-      <a href="/investor-deck.ppt" target="_blank" rel="noopener noreferrer" className="download-link">
-        Download Investor Deck (PPT)
+
+
+      <a href="/investor-deck.ppt" download className="inline-block bg-black text-white px-6 py-2 rounded-full shadow-md transition-all duration-300 hover:bg-gray-800 hover:scale-110 text-center mt-4">
+  Download Investor Deck (PPT)
       </a>
     </section>
   );
