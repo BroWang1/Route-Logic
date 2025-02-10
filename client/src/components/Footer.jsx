@@ -73,6 +73,11 @@ export default function Footer() {
           </ul>
         </div>
       </div>
+
+      {/* Copyright Notice */}
+      <div className="mt-10 border-t border-gray-700 pt-6 text-center text-xs text-gray-400">
+        <p>&copy; 2025 Route Logic. All Rights Reserved.</p>
+      </div>
     </footer>
   );
 }
