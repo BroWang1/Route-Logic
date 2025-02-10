@@ -52,6 +52,7 @@ export default function Footer() {
             <li>Brand</li>
           </ul>
         </div>
+      </div>
 
       {/* Copyright Notice */}
       <div className="mt-10 border-t border-gray-700 pt-6 text-center text-xs text-gray-400">
