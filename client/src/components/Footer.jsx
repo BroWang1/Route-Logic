@@ -9,12 +9,14 @@ export default function Footer() {
           <ul className="space-y-2">
             <li>Model 1</li>
             <li>Research Overview</li>
+            <li>News</li>
+            <li>Stories</li>
           </ul>
         </div>
 
         {/* Model */}
         <div>
-          <h4 className="text-gray-400 font-medium mb-3">ChatGPT</h4>
+          <h4 className="text-gray-400 font-medium mb-3">Route Logic</h4>
           <ul className="space-y-2">
             <li>Explore Route Logic</li>
             <li>Teams</li>
@@ -33,14 +35,11 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Business & Company */}
+        {/* Business */}
         <div>
           <h4 className="text-gray-400 font-medium mb-3">For Business</h4>
           <ul className="space-y-2">
             <li>Overview</li>
-          </ul>
-          <h4 className="text-gray-400 font-medium mt-6 mb-3">Company</h4>
-          <ul className="space-y-2">
             <li>About Us</li>
             <li>Careers</li>
             <li>Brand</li>
@@ -49,11 +48,6 @@ export default function Footer() {
 
         {/* More & Terms */}
         <div>
-          <h4 className="text-gray-400 font-medium mb-3">More</h4>
-          <ul className="space-y-2">
-            <li>News</li>
-            <li>Stories</li>
-          </ul>
           <h4 className="text-gray-400 font-medium mt-6 mb-3">Terms & Policies</h4>
           <ul className="space-y-2">
             <li>Terms of Use</li>
