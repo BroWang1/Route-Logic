@@ -25,12 +25,11 @@ export default function Footer() {
         <div>
           <h4 className="text-gray-400 font-medium mb-3">Route Logic</h4>
           <ul className="space-y-2">
-            <li>Explore Route Logic</li>
+            <li>Download</li>
             <li>Teams</li>
             <li>Enterprise</li>
             <li>Education</li>
             <li>Pricing</li>
-            <li>Download</li>
           </ul>
           <h4 className="text-gray-400 font-medium mt-6 mb-3">Model</h4>
           <ul className="space-y-2">
