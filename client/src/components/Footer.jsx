@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer className="bg-black text-white py-12 px-6">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 text-sm">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-sm">
         
         {/* Our Research */}
         <div>
@@ -11,6 +11,13 @@ export default function Footer() {
             <li>Research Overview</li>
             <li>News</li>
             <li>Stories</li>
+          </ul>
+          <h4 className="text-gray-400 font-medium mt-6 mb-3">Terms & Policies</h4>
+          <ul className="space-y-2">
+            <li>Terms of Use</li>
+            <li>Privacy Policy</li>
+            <li>Security</li>
+            <li>Other Policies</li>
           </ul>
         </div>
 
@@ -45,18 +52,6 @@ export default function Footer() {
             <li>Brand</li>
           </ul>
         </div>
-
-        {/* More & Terms */}
-        <div>
-          <h4 className="text-gray-400 font-medium mt-6 mb-3">Terms & Policies</h4>
-          <ul className="space-y-2">
-            <li>Terms of Use</li>
-            <li>Privacy Policy</li>
-            <li>Security</li>
-            <li>Other Policies</li>
-          </ul>
-        </div>
-      </div>
 
       {/* Copyright Notice */}
       <div className="mt-10 border-t border-gray-700 pt-6 text-center text-xs text-gray-400">
